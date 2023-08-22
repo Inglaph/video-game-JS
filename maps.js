@@ -18,7 +18,7 @@ const maps = [];
 maps.push({
   level: 0,
   map: [
-    ['IXXXXXXXXX'],
+    ['OXXXXXXXXX'],
     ['-XXXXXXXXX'],
     ['-XXXXXXXXX'],
     ['-XXXXXXXXX'],
@@ -61,3 +61,35 @@ maps.push({
     ['XXXXXXXXXX']
   ]
 });
+maps.push({
+  level: 3,
+  map: [
+    ['I-----XXXX'],
+    ['XXXXX-IXXX'],
+    ['XX----XXXX'],
+    ['XX-XXXXXXX'],
+    ['XX-----OXX'],
+    ['XXXXXX-XXX'],
+    ['XX-----XXX'],
+    ['XX-XXXXXXX'],
+    ['XX-----XXX'],
+    ['XXXXXXXXXX']
+  ]
+});
+
+maps.push({
+  level: 4,
+  map: [
+    ['OXXXXXXXXX'],
+    ['XXXXXXXXXX'],
+    ['XXXXXXXXXX'],
+    ['XXXXXXXXXX'],
+    ['XXXXXXXXXX'],
+    ['XXXXXXXXXX'],
+    ['XXXXXXXXXX'],
+    ['XXXXXXXXXX'],
+    ['XXXXXXXXXX'],
+    ['IXXXXXXXXX']
+  ]
+}
+);
