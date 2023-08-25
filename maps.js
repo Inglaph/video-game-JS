@@ -12,6 +12,12 @@ const emojis = {
   'BOMB_COLLISION': '🔥',
   'GAME_OVER': '👎',
   'WIN': '🏆',
+  'L': '❤️',
+  'D': '🖤',
+  'ONE': '🥇',
+  'TWO': '🥈',
+  'THREE': '🥉',
+
 };
 
 const maps = [];
@@ -65,31 +71,14 @@ maps.push({
   level: 3,
   map: [
     ['I-----XXXX'],
-    ['XXXXX-IXXX'],
-    ['XX----XXXX'],
-    ['XX-XXXXXXX'],
-    ['XX-----OXX'],
-    ['XXXXXX-XXX'],
+    ['XXXXX---XX'],
+    ['XXXXXXX-XX'],
+    ['XX-XXX--XX'],
     ['XX-----XXX'],
     ['XX-XXXXXXX'],
-    ['XX-----XXX'],
-    ['XXXXXXXXXX']
+    ['XX--XXXXXX'],
+    ['XX-XXXXXXX'],
+    ['XX-X---OXX'],
+    ['XX---XXXXX']
   ]
 });
-
-maps.push({
-  level: 4,
-  map: [
-    ['OXXXXXXXXX'],
-    ['XXXXXXXXXX'],
-    ['XXXXXXXXXX'],
-    ['XXXXXXXXXX'],
-    ['XXXXXXXXXX'],
-    ['XXXXXXXXXX'],
-    ['XXXXXXXXXX'],
-    ['XXXXXXXXXX'],
-    ['XXXXXXXXXX'],
-    ['IXXXXXXXXX']
-  ]
-}
-);
